@@ -4,7 +4,7 @@ This project uses TestRail's API to automatically add a test run and update your
 
 It also supports printing test steps to the comments of your TestRail result
 
-#### Usage
+## Usage
 
 ```
 public class TestRailIntegrationTest extends TestNGTestRailBaseTest
@@ -38,7 +38,7 @@ You can tag your TestNG test case with the @TestRail annotation and include the 
 
 Run your tests manually or via maven and the results will be posted to TestRail. Keep reading for full instructions
 
-#### Building tests locally
+## Building tests locally
 The tests use Lombok so ensure you have annotation processing enabled in your IDE and install the Lombok plugin
 
 IntelliJ
