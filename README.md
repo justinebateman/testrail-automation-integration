@@ -7,7 +7,7 @@ It also supports printing test steps to the comments of your TestRail result
 #### Usage
 
 ```
-public class TestRailIntegrationTest  extends TestNGTestRailBaseTest
+public class TestRailIntegrationTest extends TestNGTestRailBaseTest
 {
     @Test(groups = {"smoke"})
     @TestRail(testCaseIds = {103})
