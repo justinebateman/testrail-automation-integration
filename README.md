@@ -30,7 +30,7 @@ public class TestRailIntegrationTest  extends TestNGTestRailBaseTest
 
 The above TestNG test case will create the following test result in TestRail
 
-![https://i.imgur.com/ADrFTFa.png]
+![](https://i.imgur.com/ADrFTFa.png | width=400 )
 
 Your test class must extend TestNGTestRailBaseTest for the integration to work
 
