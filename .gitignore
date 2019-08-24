@@ -1,0 +1,36 @@
+
+# Selenium stuff
+/target/
+/test-output/
+
+# IntelliJ
+*.iml
+.idea/
+/out/
+
+# Eclipse
+*/.classpath
+*/.project
+*/.settings
+
+# Others
+.vs/
+/debug.log
+/java script error stack trace.txt
+.metadata/
+/.vscode
+
+
+# CMake
+cmake-build-debug/
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Detritus
+.DS_Store

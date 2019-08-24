@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="1">
+    <parameter name="updateTestRail" value="${updateTestRail}"/>
+    <parameter name="testRunId" value="${testRunId}"/>
+    <parameter name="defects" value="${defects}"/>
+    <test name="Test Suite">
+        <packages>
+            <package name="justinebateman.github.io.testrailintegration.*"/>
+        </packages>
+    </test>
+</suite>

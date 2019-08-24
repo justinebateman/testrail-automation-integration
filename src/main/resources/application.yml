@@ -1,0 +1,25 @@
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    name: testrail-automation-integration
+server:
+  port: 443
+
+# To disable Hystrix in Feign
+feign:
+  hystrix:
+    enabled: false
+
+logging.level.org.springframework.web: debug
+logging.level.org.keycloak : debug
+logging.level.org.springframework.security: trace
+logging.level.org.springframework.web-security: trace
+logging.level.feign: DEBUG
+logging.level.justinebateman.github.io.testrailintegration.testrail.service: DEBUG
+
+testrail:
+  apiendpoint: https://MYTESTRAIL.testrail.io
+  authorizationheader: Basic MYAUTHHEADER
+  projectid: 10
+  suiteid: 80
