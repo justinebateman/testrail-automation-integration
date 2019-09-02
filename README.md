@@ -4,6 +4,8 @@ This project uses TestRail's API to automatically add a test run and update your
 
 It also supports printing test steps to the comments of your TestRail result
 
+[![Build Status](https://travis-ci.org/justinebateman/testrail-automation-integration.svg?branch=master)](https://travis-ci.org/justinebateman/testrail-automation-integration)
+
 ## Usage
 
 ```
