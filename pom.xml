@@ -25,7 +25,7 @@
         <lombok.version>1.18.12</lombok.version>
         <json-simple.version>1.1.1</json-simple.version>
         <feign-form.version>3.8.0</feign-form.version>
-        <assertj.version>3.15.0</assertj.version>
+        <assertj.version>3.16.0</assertj.version>
     </properties>
     <dependencies>
         <dependency>
